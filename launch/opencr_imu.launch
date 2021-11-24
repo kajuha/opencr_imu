@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find opencr_imu)/launch/base.launch">
+        <arg name="tf_prefix" default="/opencr"/>
+    </include>
+    <include file="$(find opencr_imu)/launch/tf.launch"/>
+</launch>

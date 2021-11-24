@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="broadcasterIMU" args="0 0 0 0 0 0 map imu_link 100" />
+    <node pkg="tf" type="static_transform_publisher" name="broadcasterMAG" args="0 0 0 0 0 0 map mag_link 100" />
+</launch>
